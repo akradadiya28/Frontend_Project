@@ -1,0 +1,69 @@
+.login-y {
+    padding-top: 20px;
+}
+.padding-y{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-fonts: 'Inter';
+    --secondery-fonts: 'Poppins';
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* login */
+.or p {
+  display:flex;
+}
+.or p:before,.or p:after {
+  color:#f7f7fa;
+  content:'';
+  flex:1;
+  margin: auto 0.25rem;
+  border-bottom:groove 2px;
+  box-shadow: 0 -2px ;
+}
+
+/* help */
+.section-1{
+    position: relative;
+}
+.section-png-1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.section-png-2{
+    position: absolute;
+    right: 30%;
+}
+.section-png-3{
+    position: absolute;
+    right: 0;
+}
+.section-png-4{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
