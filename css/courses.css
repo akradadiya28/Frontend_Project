@@ -1,10 +1,12 @@
 .login-y {
     padding-top: 20px;
 }
-.padding-y{
+
+.padding-y {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 ul {
     list-style: none;
     padding: 0;
@@ -34,36 +36,103 @@ ul {
 
 /* login */
 .or p {
-  display:flex;
+    display: flex;
 }
-.or p:before,.or p:after {
-  color:#f7f7fa;
-  content:'';
-  flex:1;
-  margin: auto 0.25rem;
-  border-bottom:groove 2px;
-  box-shadow: 0 -2px ;
+
+.or p:before,
+.or p:after {
+    color: #f7f7fa;
+    content: '';
+    flex: 1;
+    margin: auto 0.25rem;
+    border-bottom: groove 2px;
+    box-shadow: 0 -2px;
 }
 
 /* help */
-.section-1{
+.section-1 {
     position: relative;
 }
-.section-png-1{
+
+.section-png-1 {
     position: absolute;
     top: 30%;
     left: 10%;
 }
-.section-png-2{
+
+.section-png-2 {
     position: absolute;
     right: 30%;
 }
-.section-png-3{
+
+.section-png-3 {
     position: absolute;
     right: 0;
 }
-.section-png-4{
+
+.section-png-4 {
     position: absolute;
     top: 5%;
     right: 5%;
+}
+
+.courses_details .btn {
+    background-color: #E6E9EF;
+    color: #6D6C80;
+    transition: all 0.3s;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #5751E1;
+    box-shadow: rgba(9, 3, 58, 0.8) 5px 5px;
+}
+
+.tab-pane {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tab-pane h3 {
+    font-size: 24px;
+}
+
+.tab-pane p {
+    font-size: 16px;
+    color: #6D6C80;
+    font-weight: 300;
+}
+
+.ab-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #FFC224;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 50%;
+    box-shadow: #b1b0c2 4px 3px;
+    transition: all 0.5s;
+}
+
+.ab-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.ab-btn i{
+    font-size: 12px;
+}
+.tab-content.ab-btn h3{
+    font-size: 10px;
+}
+.butn{
+    color: black;
+    background-color: #FFC224;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0) 5px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.butn:hover{
+    color: #5751E1;
+    background-color: #fff;
+    border: 2px solid #6D6C80;
+    box-shadow: #6D6C80 5px 5px;
 }
