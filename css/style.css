@@ -21,6 +21,12 @@ ul {
 .inter {
   font-family: "Inter";
 }
+.second-color {
+  color: #6d6c80;
+}
+.bg-text-blue {
+  color: #161439;
+}
 .bg-blue {
   background-color: #161439;
 }
