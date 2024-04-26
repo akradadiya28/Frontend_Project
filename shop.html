@@ -219,159 +219,378 @@
         </div>
     </section>
     <!-- shop -->
-    <section class="padding-y all-cources">
+    <section class="padding-y">
         <div class="container">
-            <div class="row d-flex g-3">
-                <div class="col-3"></div>
-                <div class="col-9 mt-5 d-flex justify-content-between align-items-center">
-                    <p class="m-0">Showing 1-9 of 16 Results</p>
-                    <div class="select d-flex align-items-center">
-                        <span class="me-1">Sort By : </span>
-                        <form action="#" class="d-inline-block">
-                            <select name="sort-by" id="sort-by"
-                                style="padding: 6px 6px;border: 1px solid #D7D7D7; border-radius: 3px;outline:none;">
-                                <option value="Most-populer">Default Sorting</option>
-                                <option value="Most-populer">All</option>
-                                <option value="Most-populer">A to Z</option>
-                            </select>
-                        </form>
-                        <span class="ms-3 rounded-1 text-white text-center"
-                            style="background-color: #5751E1;height: 40px; width: 40px;line-height: 2.7;"><i
-                                class="fi fi-rr-apps"></i>
-                        </span>
-                        <span class="ms-3 border rounded-1 text-white d-flex justify-content-center align-items-center"
-                            style="height: 40px; width: 40px;"><i class="fa-solid fa-bars" style="color: #5751E1;"></i>
-                        </span>
+            <div class="row">
+                <div class="col-3">
+                    <div class="col-12">
+                        <ul class="p-4 rounded-4 list-unstyled mb-4 mt-5"
+                            style="background-color: #F7F7F9; color: #6D6C80;">
+                            <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Categories</h5>
+                            <form action="#">
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Art & Design (8)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Business (12)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Data Science (7)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Development (10)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Finance (8)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Health & Fitness (8)
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <input type="checkbox" class="me-4">
+                                    Lifestyle (9)
+                                </li>
+                            </form>
+                            <p style="color: #5751E1; font-size: 15;" class="fw-medium m-0">Show More +</p>
+                        </ul>
+                        <ul class="p-4 rounded-4 list-unstyled mb-4" style="background-color: #F7F7F9; color: #6D6C80;">
+                            <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Language</h5>
+                            <form action="#">
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    All Language
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Arabic (11)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    English (53)
+                                </li>
+                                <li class="d-flex align-items-center mb-3">
+                                    <input type="checkbox" class="me-4">
+                                    Spanish (22)
+                                </li>
+                            </form>
+                            <p style="color: #5751E1; font-size: 15;" class="fw-medium m-0">Show More +</p>
+                        </ul>
+                        <ul class="p-4 rounded-4 list-unstyled mb-4" style="background-color: #F7F7F9; color: #6D6C80;">
+                            <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Price</h5>
+                            <form action="#">
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    All Price
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Free
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    Paid
+                                </li>
+                            </form>
+                        </ul>
+                        <ul class="p-4 rounded-4 list-unstyled mb-5" style="background-color: #F7F7F9; color: #6D6C80;">
+                            <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Ratings</h5>
+                            <form action="#">
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
+                                    <i class="fa-solid fa-star me-2" style="color: #F8BC24;font-size: 16px;"></i>
+                                    (42)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
+                                    (23)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
+                                    (11)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
+                                    (7)
+                                </li>
+                                <li class="d-flex align-items-center mb-2">
+                                    <input type="checkbox" class="me-4">
+                                    <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
+                                    <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
+                                    (3)
+                                </li>
+                            </form>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-3 border-end position-relative">
-                    <ul class="p-4 rounded-4 list-unstyled mb-4 mt-5"
-                        style="background-color: #F7F7F9; color: #6D6C80;">
-                        <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Categories</h5>
-                        <form action="#">
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Art & Design (8)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Business (12)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Data Science (7)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Development (10)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Finance (8)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Health & Fitness (8)
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <input type="checkbox" class="me-4">
-                                Lifestyle (9)
-                            </li>
-                        </form>
-                        <p style="color: #5751E1; font-size: 15;" class="fw-medium m-0">Show More +</p>
-                    </ul>
-                    <ul class="p-4 rounded-4 list-unstyled mb-4" style="background-color: #F7F7F9; color: #6D6C80;">
-                        <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Language</h5>
-                        <form action="#">
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                All Language
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Arabic (11)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                English (53)
-                            </li>
-                            <li class="d-flex align-items-center mb-3">
-                                <input type="checkbox" class="me-4">
-                                Spanish (22)
-                            </li>
-                        </form>
-                        <p style="color: #5751E1; font-size: 15;" class="fw-medium m-0">Show More +</p>
-                    </ul>
-                    <ul class="p-4 rounded-4 list-unstyled mb-4" style="background-color: #F7F7F9; color: #6D6C80;">
-                        <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Price</h5>
-                        <form action="#">
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                All Price
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Free
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                Paid
-                            </li>
-                        </form>
-                    </ul>
-                    <ul class="p-4 rounded-4 list-unstyled mb-5" style="background-color: #F7F7F9; color: #6D6C80;">
-                        <h5 class="mb-3 fw-bold" style="font-family: var(--secondery-fonts);">Ratings</h5>
-                        <form action="#">
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;font-size: 16px;"></i>
-                                <i class="fa-solid fa-star me-2" style="color: #F8BC24;font-size: 16px;"></i>
-                                (42)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
-                                (23)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
-                                (11)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
-                                (7)
-                            </li>
-                            <li class="d-flex align-items-center mb-2">
-                                <input type="checkbox" class="me-4">
-                                <i class="fa-solid fa-star me-1" style="color: #F8BC24;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-1" style="color: #D7D7D7;"></i>
-                                <i class="fa-solid fa-star me-2" style="color: #D7D7D7;"></i>
-                                (3)
-                            </li>
-                        </form>
-                    </ul>
-                </div>
-                <div class="col-9 d-flex flex-wrap">
-
+                <div class="col-9">
+                    <div class="col-12  d-flex align-items-center justify-content-between">
+                        <p class="m-0">Showing 1-9 of 16 Results</p>
+                        <div class="select d-flex align-items-center">
+                            <form action="#" class="d-inline-block">
+                                <select name="sort-by" id="sort-by"
+                                    style="padding: 6px 6px;border: 1px solid #D7D7D7; border-radius: 3px;outline:none;">
+                                    <option value="Most-populer">Default Sorting</option>
+                                    <option value="Most-populer">All</option>
+                                    <option value="Most-populer">A to Z</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4 d-flex flex-wrap">
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img01.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">Garden Adeline Life</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img02.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">GTime to Explore</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img03.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">Wildlife Adventure</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img04.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">Ketut Susilo Sky</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img05.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">The Fashion Edits</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img06.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">The Fashion Edits</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img07.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">Online Makeup Tutorial</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img08.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">Online Makeup Tutorial</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2 py-2">
+                            <div class="wrapper p-3 border rounded-4 ">
+                                <div class="content-image text-center position-relative mb-4">
+                                    <img src="images/Link → shop_img09.jpg.jpg" alt="shope-1">
+                                    <div class="sale position-absolute top-0 left-0">
+                                        <span class="py-1 px-3 rounded text-white fw-medium"
+                                            style="background-color: #5751E1;">SALE</span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <p class="fw-semibold" style="font-size: 18px;">The Bad Feelings</p>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    <span style="color: #6D6C80;">(5.00)</span>
+                                    <div class="d-flex justify-content-center align-items-center mt-1">
+                                        <h4 style="color: #5751E1;font-size: 28px;" class="fw-semibold m-0">$13.00</h4>
+                                        <span style="color: #6D6C80;font-size: 18px;"
+                                            class="text-decoration-line-through">$19.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
