@@ -166,7 +166,7 @@
   </header>
   <main>
     <!-- banner -->
-    <section class="banner position-relative">
+    <section class="banner position-relative z-n1">
       <div class="container">
         <div class="row">
           <div class="col-6 d-flex justify-content-center align-items-center">
@@ -180,8 +180,32 @@
             </div>
           </div>
           <div class="col-6">
-            <div class="banner-img">
-              <img src="images/banner_img.png.png" alt="">
+            <div class="banner-right position-relative d-flex justify-content-end">
+              <div class="banner-box position-absolute" style="top: 10%; left: 0%; z-index: 999;">
+                <ul>
+                  <li>
+                    <a href="#" class="d-flex align-items-center">
+                      <img src="images/banner_author01.png.png" alt="" class="me-2" width="30px" height="30px" />
+                      <span class="bg-text-blue fw-medium">Robert Fox</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="d-flex align-items-center">
+                      <img src="images/banner_author02.png.png" alt="" class="me-2" width="30px" height="30px" />
+                      <span class="bg-text-blue fw-medium">Michel Jones</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="banner-img">
+                <img src="images/banner_shape02.png.png" alt="" class="position-absolute bottom-0 z-n1"
+                  style="left: 30px" />
+                <img src="images/banner_shape02.svg fill.png" alt="" class="position-absolute"
+                  style="top: 15%; left: 30%; transform: rotate(37deg);">
+                <img src="images/bg_dots.svg.png" alt="" class="position-absolute top-0 start-0 z-n1" />
+                <img src="images/banner_shape01.png.png" alt="" class="position-absolute start-0 bottom-0 z-n1" />
+                <img src="images/banner_img.png.png" alt="" class="z-5">
+              </div>
             </div>
           </div>
         </div>
@@ -297,7 +321,13 @@
     <section class="about py-120">
       <div class="container">
         <div class="row">
-          <div class="col-6"></div>
+          <div class="col-6">
+            <div class="about-img position-relative">\
+              <img src="images/Section → about_img.png.png" alt="">
+              <img src="images/Section (1).png" alt="" class="position-absolute bottom-0 start-0">
+              <img src="images/Section → about_shape.svg.png" alt="" class="position-absolute top-25 start-50">
+            </div>
+          </div>
           <div class="col-6">
             <div class="sec-title">
               <a class="btn btn-secondary disabled rounded-pill border-0" role="button" aria-disabled="true"
@@ -620,16 +650,15 @@
           <div class="col-10 mx-auto">
             <div class="bg-blue d-flex text-center justify-content-between"
               style="padding: 80px 80px;border-radius: 30px;">
-              <div class="col-2 position-relative">
+              <div class="col-2 position-relative" style="border-right:2px solid white ;">
                 <h6 class="fs-1 text-white text-center">25K+</h6>
                 <span class="text-white">Active Students</span>
               </div>
-              <span class="counter-line position-absolute"></span>
-              <div class="col-2">
+              <div class="col-2" style="border-right:2px solid white ;">
                 <h6 class="fs-1 text-white text-center">98K+</h6>
                 <span class="text-white">Faculty Courses</span>
               </div>
-              <div class="col-2">
+              <div class="col-2" style="border-right:2px solid white ;">
                 <h6 class="fs-1 text-white text-center">651K+</h6>
                 <span class="text-white">Best Professors</span>
               </div>
@@ -647,7 +676,9 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-
+            <div class="faq-img">
+              <img src="images/div.faq__img.png" alt="">
+            </div>
           </div>
           <div class="col-6">
             <div class="sec-title">
